@@ -179,6 +179,8 @@ p {
     margin: 0 auto;
 }
 
+
+
 .navDiv {
     border: 1px solid #F1F1F1;
     background: #f3be70;
@@ -219,10 +221,10 @@ p {
 
 
 .logo {
-    width: 40%;
-    height: 40%;
+    width: 95%;
+    height: 60%;
     color: white;
-    margin-top: 25%;
+    margin-top: 5%;
 
 }
 
@@ -230,14 +232,17 @@ h1 {
 
     color: #f6f6f6;
     font-size: 40px;
-    margin-top: 20%;
+    margin-top: 5%;
+    font-family: Helvetica neue;
 }
 
 h2 {
 
     color: #f6f6f6;
     font-size: 40px;
+    font-family: Helvetica neue;
 }
+
 
 .loginDiv {
     display: flex;
@@ -272,7 +277,6 @@ h2 {
     border-radius: 10px;
 }
 
-
 Footer {
     display: flex;
     justify-content: center;
@@ -280,8 +284,97 @@ Footer {
     margin-top: 10%;
 }
 
-@media screen and (max-width: 500px) {
+/***************************************About-page***************************************/
 
+.abtUsHd h1 {
+    color: #23293b;
+    font-size: 40px;
+    margin-top: 1%;
+    font-family: Helvetica neue;
+    background: aliceblue;
+}
+
+.topSection {
+    border-bottom: 1px dashed black;
+    margin-bottom: 3.2%;
+}
+
+.logoabout {
+    width: 100%;
+    height: 20%;
+    margin: 5px 0 5px 0;
+}
+
+
+.midSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    margin: 10px 0 10px 0;
+}
+
+
+.whyDoIt {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    /* height: 10%; */
+    width: 49%;
+}
+
+.whyDoIt p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-family: inherit;
+    padding: 3%;
+
+}
+
+
+.midImgDiv {
+    width: 49%;
+    height: 45%;
+    margin-left: 10px;
+}
+
+.midImg {
+    height: 75%;
+    width: 100%;
+}
+
+.bottomSection p {
+    padding-bottom: 10px;
+}
+
+/****************************************aboutUS****************************************************/
+.main {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    /* border: 1px solid; */
+    padding: 10px;
+    margin: 20px 0 20px 0;
+
+}
+
+.dom,
+.leighton,
+.may,
+.ahamar,
+.connor,
+.mack {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #b3ffff;
+}
+
+/**********************************************media**************************************/
+@media screen and (max-width: 500px) {
+    .navDiv {
+        padding-top: 2%;
+    }
 
     .navDiv .heading {
         display: flex;
@@ -322,9 +415,43 @@ Footer {
 
     }
 
+    .topSection {
+        text-align: center;
+        padding: 5px;
+    }
 
+    .midSection {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
 
+    }
 
+    .whyDoIt {
+        width: 100%;
+        font-size: 16px;
+        width: 90%;
+        margin: 0 5% 3%;
+    }
+
+    .midImgDiv {
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .bottomSection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bottomSection p {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .abtUsHd h1 {
+        text-align: center;
+    }
 
     Footer {
         display: flex;
